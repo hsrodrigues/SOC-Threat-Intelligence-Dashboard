@@ -1,0 +1,76 @@
+{
+    "name": "SOC_Cyber_Neon_Master",
+    "dataColors": [
+        "#00F5FF", 
+        "#FF3131", 
+        "#FFD700", 
+        "#BC13FE", 
+        "#1E90FF", 
+        "#00FF00", 
+        "#FF00FF", 
+        "#F0F0F0"
+    ],
+    "background": "#0B0E14",
+    "foreground": "#FFFFFF",
+    "tableAccent": "#00F5FF",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#161B22" } },
+                        "transparency": 10
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#1F2937" } },
+                        "radius": 10
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#00F5FF" } },
+                        "transparency": 80,
+                        "blur": 15,
+                        "direction": "BottomRight",
+                        "type": "Outer"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#0B0E14" } },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "categoryAxis": [
+                    {
+                        "labelColor": { "solid": { "color": "#94A3B8" } }
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "labelColor": { "solid": { "color": "#94A3B8" } },
+                        "gridlineShow": false
+                    }
+                ]
+            }
+        }
+    }
+}
